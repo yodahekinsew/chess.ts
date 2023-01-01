@@ -46,7 +46,7 @@ import {
 /** @public */
 export class Chess {
   /** @internal */
-  protected _state: State
+  public _state: State
 
   /** @internal */
   protected _history: GameHistory[]
@@ -86,6 +86,15 @@ export class Chess {
   /** @internal */
   public get state(): State {
     return this._state.clone()
+  }
+
+  public get state_ref_two(): State {
+    return this._state;
+  }
+
+  /** @internal **/
+  public get state_ref(): State {
+    return this._state;
   }
 
   /** @internal **/
