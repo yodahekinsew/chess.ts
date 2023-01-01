@@ -164,9 +164,9 @@ export function loadFen(fen: string): State | null {
   const position = tokens[0]
   let square = 0
 
-  if (!validateFen(fen).valid) {
-    return null
-  }
+  // if (!validateFen(fen).valid) {
+  //   return null
+  // }
 
   let state = new State()
 
