@@ -15,11 +15,7 @@ To install the stable version:
 
 ```
 # NPM
-<!-- npm install chess.ts -->
 npm install https://github.com/yodahe/hess.ts/tarball/master
-
-# Yarn
-yarn add chess.ts
 ```
 
 ## [Documentation](./docs/chess.ts.md)
