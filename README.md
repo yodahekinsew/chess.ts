@@ -15,7 +15,7 @@ To install the stable version:
 
 ```
 # NPM
-npm install https://github.com/yodahe/hess.ts/tarball/master
+npm install --save yodahekinsew/chessTS
 ```
 
 ## [Documentation](./docs/chess.ts.md)

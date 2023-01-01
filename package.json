@@ -1,16 +1,16 @@
 {
-  "name": "chess.ts",
+  "name": "chessTS",
   "version": "0.16.2",
   "license": "BSD-2-Clause",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "homepage": "https://github.com/lubert/chess.ts",
+  "homepage": "https://github.com/yodahekinsew/chessTS",
   "keywords": [
     "chess"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/lubert/chess.ts.git"
+    "url": "https://github.com/yodahekinsew/chessTS.git"
   },
   "devDependencies": {
     "@microsoft/api-documenter": "^7.8.21",
