@@ -705,16 +705,16 @@ export function generateMoves(
       }
 
       /* pawn captures */
-      for (let j = 2; j < 4; j++) {
-        const square = i + PAWN_OFFSETS[us][j]
-        if (square & 0x88) continue
+      // for (let j = 2; j < 4; j++) {
+      //   const square = i + PAWN_OFFSETS[us][j]
+      //   if (square & 0x88) continue
 
-        if (state.board[square] && state.board[square]?.color === them) {
-          add_move(state.board, moves, i, square, BITS.CAPTURE)
-        } else if (square === state.ep_square) {
-          add_move(state.board, moves, i, state.ep_square, BITS.EP_CAPTURE)
-        }
-      }
+      //   if (state.board[square] && state.board[square]?.color === them) {
+      //     add_move(state.board, moves, i, square, BITS.CAPTURE)
+      //   } else if (square === state.ep_square) {
+      //     add_move(state.board, moves, i, state.ep_square, BITS.EP_CAPTURE)
+      //   }
+      // }
     } else {
       for (let j = 0, len = PIECE_OFFSETS[piece.type].length; j < len; j++) {
         const offset = PIECE_OFFSETS[piece.type][j]
